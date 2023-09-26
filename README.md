@@ -28,5 +28,3 @@ y_val_pred = model.predict(X_val)
 accuracy = accuracy_score(y_val, y_val_pred)
 print(f'Validation Accuracy: {accuracy}')
 print(classification_report(y_val, y_val_pred))
-
-# Once you are satisfied with the model's performance, you can deploy it for predictions.
